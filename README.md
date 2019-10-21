@@ -1,1 +1,1 @@
-"# projects" 
+Repository of relevant coursework projects
