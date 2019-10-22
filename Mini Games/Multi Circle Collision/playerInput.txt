@@ -1,0 +1,4 @@
+Window size (width height): 800 600 
+Number of circles (int): 100
+Radii of all circles (float): 20.0
+Acceleration (float): 50.0
