@@ -7,12 +7,12 @@ The application comes with complete CRUD (Create, Read, Update, Delete) function
 
 Screenshots of the website application in operation are attached in the folder 'Screenshots'
 
-* Software Versions
-Ruby 2.6.3
-Rails 5.2.3
-Gem 3.0.3
+### Software Versions
+- Ruby 2.6.3
+- Rails 5.2.3
+- Gem 3.0.3
 
-* Execution instructions
+### Execution instructions
 (Appropriate versions of Ruby & Rails are needed)
 1) In the main 'airport-final' folder, open the terminal and type the following:
 	gem install bundler
@@ -21,7 +21,7 @@ Gem 3.0.3
 
 2) Then load 'localhost:3000' in a web browser.
 
-* Development Date
+### Development Date
 For the 2018 summer class of Introduction to Application Development. Course code: MIS 21. Done in groups of 4.
 
-- Christine Garcia
+-- Christine Garcia
