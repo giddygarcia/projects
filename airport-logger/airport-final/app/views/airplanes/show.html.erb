@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
+	<title></title>
+	<style type="text/css">
+		h1{
+			text-align: center;
+			font-size: 50px;
+			color: white;
+			padding-top: 30px;
+			margin: auto;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		.show{
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<h1> DISPLAYING LOG </h1>
+ 
+ <div class="box">
+  	<div>
+		<h3 class="show">Airplane ID: <%= @airplane.id %></h3>
+	</div>
+
+	<div class="show">
+		CODE: <%= @airplane.code %>
+	</div>
+
+	<div class="show">
+		SEAT CAPACITY: <%= @airplane.seat_capacity %>
+	</div>
+
+	<div class="show">
+		DESTINATION: <%= @airplane.destination %>
+	</div>
+
+	<div class="show">
+		TIME IN: <%= @airplane.time_in %>
+	</div>
+
+	<div class="show">
+		TIME OUT: <%= @airplane.time_out %>
+	</div>
+	
+	<div class="show">
+		CREATED AT : <%= @airplane.created_at %>
+	</div>
+	
+	<div class="show">
+		UPDATED AT: <%= @airplane.updated_at %>
+	</div>  
+
+	<td class="btn btn-info"><%= link_to "EDIT", edit_airplane_path(@airplane.id) %></td>
+	<td class="btn btn-danger"><%= link_to "DELETE", airplane_path(@airplane.id), method: :delete, data:{confirm: "Are you sure you want to delete?"} %></td>
+</body>
+</html>
